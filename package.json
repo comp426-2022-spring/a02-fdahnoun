@@ -1,0 +1,20 @@
+{
+  "name": "coinflipping",
+  "version": "1.0.0",
+  "description": "Flip coins",
+  "main": "flip.js",
+  "scripts": {
+    "flip": "node flip.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/comp426-2022-spring/a02-fdahnoun.git"
+  },
+  "author": "Ferras Dahnoun",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/comp426-2022-spring/a02-fdahnoun/issues"
+  },
+  "homepage": "https://github.com/comp426-2022-spring/a02-fdahnoun#readme"
+}
