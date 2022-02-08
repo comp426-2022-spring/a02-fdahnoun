@@ -14,11 +14,12 @@
  * 
  */
 
-function coinFlip() {
+export function coinFlip() {
   return (Math.floor(Math.random() * 2) == 0) ? 'heads' : 'tails';
 }
 
-console.log(coinFlip())
+// export { coinFlip }
+// console.log(coinFlip())
 
 /** Multiple coin flips
  * 
@@ -39,7 +40,7 @@ console.log(coinFlip())
     ]
  */
 
-function coinFlips(flips) {
+ function coinFlips(flips) {
 
 }
 

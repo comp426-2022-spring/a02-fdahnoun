@@ -1,6 +1,7 @@
 {
   "name": "coinflipping",
   "version": "1.0.0",
+  "type": "module",
   "description": "Flip coins",
   "main": "flip.js",
   "scripts": {
