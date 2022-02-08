@@ -64,8 +64,18 @@ export function coinFlips(flips) {
  * @returns {{ heads: number, tails: number }}
  */
 
-function countFlips(array) {
+export function countFlips(array) {
+  var dict = {};
+  dict = {heads: 0, tails: 0}
+  for (let x = 0; x < array.length; x++){
+    if (array[x] == "heads"){
+      dict.heads += 1
 
+    }else{
+      dict.tails += 1
+    }
+  }
+  return dict
 }
 
 /** Flip a coin!
