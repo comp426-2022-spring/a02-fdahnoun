@@ -41,13 +41,15 @@ export function coinFlip() {
  */
 
 export function coinFlips(flips) {
+  if (flips == 0){
+    coinFlip()
+  }
   const headsOrTails = []
   for (let x = 0; x < flips; x++){
     var outcome = Math.floor(Math.random() * 2) == 0 ? 'heads' : 'tails'
     headsOrTails[x] = outcome
 }
   return headsOrTails
- //console.log(coinFlips(10))
 
 }
 
