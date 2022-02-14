@@ -4,6 +4,7 @@ import minimist from 'minimist';
 const commInput = minimist(process.argv.slice(2));
 
 const input = commInput.number;
+//test
 
 var totalResults = coinFlips(input);
 console.log(totalResults);
