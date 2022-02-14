@@ -17,5 +17,9 @@
   "bugs": {
     "url": "https://github.com/comp426-2022-spring/a02-fdahnoun/issues"
   },
-  "homepage": "https://github.com/comp426-2022-spring/a02-fdahnoun#readme"
+  "homepage": "https://github.com/comp426-2022-spring/a02-fdahnoun#readme",
+  "dependencies": {
+    "minimist": "^1.2.5",
+    "yargs": "^17.3.1"
+  }
 }
