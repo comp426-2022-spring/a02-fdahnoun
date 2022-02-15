@@ -14,4 +14,4 @@ console.log(countFlips(['tails', 'tails', 'tails', 'tails']))
 
 import { flipACoin } from "./modules/coin.mjs";
 
-console.log(flipACoin("tail"))
+console.log(flipACoin(''))

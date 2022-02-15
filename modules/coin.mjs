@@ -111,7 +111,12 @@ export function flipACoin(call) {
   } else{
     result = 'lose'
   }
+  
   flipCoin = {guess: call, flip: thisFlip, final_result: result}
+
+  if (call != "heads" && call != "tails"){
+    return ('Error: no input.\nUsage: node guess-flip=[heads|tails]')
+  }
 
   
   return flipCoin
