@@ -72,6 +72,9 @@ export function coinFlips(flips) {
 export function countFlips(array) {
   var dict = {};
   dict = {heads: 0, tails: 0}
+  // console.log(dict.heads)
+  // console.log(dict)
+  // delete dict['tails']
   for (let x = 0; x < array.length; x++){
     if (array[x] == "heads"){
       dict.heads += 1
@@ -79,6 +82,11 @@ export function countFlips(array) {
     }else{
       dict.tails += 1
     }
+  }
+  if (dict.heads == 0){
+    delete dict["heads"]
+  } else if (dict.tails == 0){
+    delete dict["tails"]
   }
   return dict
 }
