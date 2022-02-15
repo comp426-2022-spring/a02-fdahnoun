@@ -106,7 +106,7 @@ export function flipACoin(call) {
   var flipCoin = {};
   var thisFlip = coinFlip()
   var result = ""
-  if (call == thisFlip){
+  if (call === thisFlip){
     result = 'win'
   } else{
     result = 'lose'

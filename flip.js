@@ -10,8 +10,8 @@ import { coinFlips } from "./modules/coin.mjs";
 
 import { countFlips } from "./modules/coin.mjs";
 
-console.log(countFlips(['tails', 'tails', 'tails', 'tails']))
+//console.log(countFlips(['tails', 'tails', 'tails', 'tails']))
 
 import { flipACoin } from "./modules/coin.mjs";
 
-//console.log(flipACoin('tails'))
+console.log(flipACoin('tails'))
