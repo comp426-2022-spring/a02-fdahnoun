@@ -48,7 +48,7 @@ export function coinFlips(flips) {
   }
   for (let x = 0; x < flips; x++){
     var outcome = Math.floor(Math.random() * 2) == 0 ? 'heads' : 'tails'
-    headsOrTails[x] = outcome
+    headsOrTails.push(outcome)
   }
   
 
