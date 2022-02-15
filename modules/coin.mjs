@@ -42,9 +42,12 @@ export function coinFlip() {
 
 export function coinFlips(flips) {
   const headsOrTails = []
+  if (flips == null){
+    headsOrTails.push(coinFlip())
+    return headsOrTails
+  }
   for (let x = 0; x < flips; x++){
-    var outcome = coinFlip();
-    //var outcome = Math.floor(Math.random() * 2) == 0 ? 'heads' : 'tails'
+    var outcome = Math.floor(Math.random() * 2) == 0 ? 'heads' : 'tails'
     headsOrTails[x] = outcome
   }
   
