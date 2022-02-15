@@ -2,15 +2,15 @@
 
 import { coinFlip } from "./modules/coin.mjs";
 // Call the coinFlip function and put the return into STDOUT
-//console.log(coinFlip())
+console.log(coinFlip())
 
 import { coinFlips } from "./modules/coin.mjs";
 
-//console.log(coinFlips(10))
+console.log(coinFlips(10))
 
 import { countFlips } from "./modules/coin.mjs";
 
-//console.log(countFlips(['tails', 'tails', 'tails', 'tails']))
+console.log(countFlips(['tails', 'tails', 'tails', 'tails']))
 
 import { flipACoin } from "./modules/coin.mjs";
 
