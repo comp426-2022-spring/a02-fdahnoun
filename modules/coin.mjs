@@ -105,18 +105,14 @@ export function countFlips(array) {
 export function flipACoin(call) {
   var flipCoin = {};
   var thisFlip = coinFlip()
-  var result = ""
+  var final_result = ""
   if (call === thisFlip){
-    result = 'win'
+    final_result = 'win'
   } else{
-    result = 'lose'
+    final_result = 'lose'
   }
   
-  flipCoin = {guess: call, flip: thisFlip, final_result: result}
-
-  if (call != "heads" && call != "tails"){
-    return ('Error: no input.\nUsage: node guess-flip=[heads|tails]')
-  }
+  flipCoin = {call: call, flip: thisFlip, result: final_result}
 
   
   return flipCoin
